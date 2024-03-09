@@ -34,7 +34,7 @@ a {
 .header-nav a {
   font-weight: 500;
   font-size: 16px;
-  color: #2e2f42;
+  color: var(--prime-color);
 }
 .header-nav a:focus {
   color: #404bbf;
