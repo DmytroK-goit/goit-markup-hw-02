@@ -31,18 +31,18 @@ a {
   color: var(--prime-color);
 }
 
-header nav ul {
-  font-family: "Roboto", sans-serif;
+.header-nav a {
   font-weight: 500;
   font-size: 16px;
+  color: #2e2f42;
 }
-header nav li a {
-  color: var(--prime-color);
-}
-header nav li a:hover {
+.header-nav a:focus {
   color: #404bbf;
 }
-header nav li a:active {
+.header-nav a:hover {
+  color: #404bbf;
+}
+.header-nav a:active {
   color: #404bbf;
   text-decoration: underline;
 }
