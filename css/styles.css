@@ -1,0 +1,142 @@
+:root {
+  --prime-color: #2e2f42;
+  --second-color: #434455;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prime-color);
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+.header-logo-first-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-second-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--prime-color);
+}
+header nav ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+header nav li a {
+  color: var(--prime-color);
+}
+header nav li a:hover {
+  color: #404bbf;
+}
+header nav li a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+header address a {
+  color: var(--second-color);
+  font-style: normal;
+}
+header address a:hover {
+  color: #404bbf;
+}
+/* hero */
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  color: #fff;
+}
+.hero {
+  background-color: var(--prime-color);
+}
+.hero button {
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero button:hover {
+  background-color: #404bbf;
+}
+/* advanteges */
+.advanteges h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.advanteges p {
+  color: var(--second-color);
+}
+/* our-team */
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: #2e2f42;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.our-team p {
+  color: var(--second-color);
+}
+/* our-portfolio */
+.our-portfolio h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+}
+.our-portfolio h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.our-portfolio p {
+  color: var(--second-color);
+}
+footer {
+  background-color: var(--prime-color);
+}
+.footer-logo-first-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-second-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+footer p {
+  color: #f4f4fd;
+}
