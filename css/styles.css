@@ -18,24 +18,21 @@ a {
   text-decoration: none;
   text-transform: none;
 }
-.header-logo-first-part {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.header-logo-first-part {
   color: #4d5ae5;
 }
 .header-logo-second-part {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--prime-color);
 }
+
 header nav ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
