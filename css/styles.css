@@ -47,15 +47,15 @@ a {
   text-decoration: underline;
 }
 
-header address a {
+.header-address a {
   color: var(--second-color);
   font-style: normal;
 }
-header address a:hover {
+.header-address a:hover {
   color: #404bbf;
 }
 /* hero */
-h1 {
+.hero h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -65,28 +65,39 @@ h1 {
 .hero {
   background-color: var(--prime-color);
 }
-.hero button {
+.hero-button {
   color: #fff;
   background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero button:hover {
+.hero-button:hover {
   background-color: #404bbf;
 }
 /* advanteges */
-.advanteges h3 {
+.advanteges-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--prime-color);
 }
-.advanteges p {
+.advanteges-p {
   color: var(--second-color);
 }
 /* our-team */
-.our-team h2 {
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team-main-h {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .our-team h3 {
@@ -111,7 +122,7 @@ h1 {
 .our-portfolio p {
   color: var(--second-color);
 }
-footer {
+.footer {
   background-color: var(--prime-color);
 }
 .footer-logo-first-part {
@@ -132,6 +143,6 @@ footer {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-footer p {
+.footer p {
   color: #f4f4fd;
 }
