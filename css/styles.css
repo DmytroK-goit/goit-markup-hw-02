@@ -138,7 +138,7 @@ font-style: normal;
 .footer {
   background-color: var(--prime-color);
    }
-.footer a{
+.footer-logo{
   font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -156,6 +156,6 @@ font-style: normal;
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer p {
+.footer-p {
   color: #f4f4fd;
 }
