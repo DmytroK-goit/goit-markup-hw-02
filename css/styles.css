@@ -58,6 +58,9 @@ font-style: normal;
 .header-address-li:hover {
   color: #404bbf;
 }
+.header-address-li:focus{
+  color: #404bbf;
+}
 /* hero */
 .hero-h-main {
   font-family: "Roboto", sans-serif;
