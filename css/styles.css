@@ -18,6 +18,16 @@ a {
   text-decoration: none;
   text-transform: none;
 }
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -47,18 +57,17 @@ a {
   text-decoration: underline;
 }
 
-.header-address{
-font-style: normal;
+.header-address {
+  font-style: normal;
 }
 
-.header-address-li{
+.header-address-li {
   color: var(--second-color);
-
 }
 .header-address-li:hover {
   color: #404bbf;
 }
-.header-address-li:focus{
+.header-address-li:focus {
   color: #404bbf;
 }
 /* hero */
@@ -69,7 +78,7 @@ font-style: normal;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-    color: #fff;
+  color: #fff;
 }
 .hero {
   background-color: var(--prime-color);
@@ -85,8 +94,8 @@ font-style: normal;
 .hero-button:hover {
   background-color: #404bbf;
 }
-.hero-button:focus{
-  background-color: #404BBF;
+.hero-button:focus {
+  background-color: #404bbf;
 }
 /* advanteges */
 .advanteges-h {
@@ -112,8 +121,8 @@ font-style: normal;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.our-team-li{
-  background-color: #FFFFFF;
+.our-team-li {
+  background-color: #ffffff;
 }
 .our-team h3 {
   font-weight: 500;
@@ -140,15 +149,15 @@ font-style: normal;
 /* footer */
 .footer {
   background-color: var(--prime-color);
-   }
-.footer-logo{
+}
+.footer-logo {
   font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .footer-logo-second-part {
   font-family: "Raleway", sans-serif;
